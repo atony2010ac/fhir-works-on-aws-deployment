@@ -15,7 +15,7 @@ custom:
   oauthRedirect: ${opt:oauthRedirect, 'http://localhost'}
   config: ${file(serverless_config.json)}
   useHapiValidator: ${opt:useHapiValidator, 'false'}
-  enableMultiTenancy: ${opt:enableMultiTenancy, 'false'}
+  enableMultiTenancy: ${opt:enableMultiTenancy, 'true'}
   enableSubscriptions: ${opt:enableSubscriptions, 'false'}
   logLevel: ${opt:logLevel, 'error'}
   enableESHardDelete: ${opt:enableESHardDelete, 'false'}
